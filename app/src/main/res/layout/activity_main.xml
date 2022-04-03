@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/primary_variant">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toListing"
+        android:text="@string/list"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:backgroundTint="@color/primary"
+        android:foregroundTint="@color/on_primary"
+        android:layout_marginBottom="30dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toInsert"
+        android:text="@string/add_new"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:backgroundTint="@color/primary"
+        android:foregroundTint="@color/on_primary"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

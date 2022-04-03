@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">👦👧🍍🐒🛒</string>
+    <string name="list">Listázás</string>
+    <string name="add_new">Új felvétele</string>
+    <string name="back">Vissza</string>
+    <string name="city_name">Név</string>
+    <string name="country_name">Ország</string>
+    <string name="population">Lakosság</string>
+    <string name="add">Felvétel</string>
+</resources>
